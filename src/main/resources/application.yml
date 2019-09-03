@@ -1,0 +1,14 @@
+server:
+  port: 5454
+security:
+  oauth2:
+    client:
+      clientId: 81igyql7qpjhyt
+      clientSecret: ZixRF1n1lC4MoDKE
+      accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
+      userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://api.linkedin.com/v2/me
